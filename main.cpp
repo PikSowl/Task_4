@@ -12,7 +12,9 @@ using std::getline;
 int main()
 {
     //Task was unclear, so this program will work for 0 to 8 inclusive
-    cout << "Welcome to Bit Packager 0-8" << endl << "Please, write any numbers from 0 to 8 inclusive" << endl << "Press enter to see writen numbers in backwards order" << endl << "To end program type any letter or 9, and press enter" << endl << endl;
+   //Task was unclear, so this program will work for 0 to 8 inclusive
+    cout << "Welcome to Bit Packager 0-8" << endl << "Please, write any numbers from 0 to 8 inclusive" << endl << "Press enter to continue" << endl << "Please note, that "9" or non-number characters will end program " << endl << endl;
+
     string inp;
     getline(cin, inp);
     unsigned char il = inp.length();
